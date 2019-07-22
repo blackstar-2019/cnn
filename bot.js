@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-var prefix = "$"
-var adminprefix = '$'
+var prefix = "#"
+var adminprefix = '#'
 
 
 //bc
@@ -23,7 +23,7 @@ client.on("message", message => {
 //bc online
 
 
-  var prefix = "$";
+  var prefix = "#";
 
   client.on("message", message => {
   
@@ -125,4 +125,4 @@ if (message.content.startsWith(adminprefix + 'setava')) {
 });
 
 
-client.login(process.env.TOKEN);
+client.login(process.env.NTkxNzAzODczNTcyNTY5MTAw.XTY1pQ.ju4r2XYe8ip1fG8nar5YwwGjcAY);
